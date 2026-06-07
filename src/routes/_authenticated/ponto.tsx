@@ -91,7 +91,7 @@ function PontoPage() {
           <p className="font-display text-6xl font-bold tabular-nums tracking-tight">
             {now.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" })}
             <span className="text-2xl text-muted-foreground">
-              :{now.toLocaleTimeString("pt-BR", { second: "2-digit" }).padStart(2, "0").slice(-2)}
+              :{String(now.getSeconds()).padStart(2, "0")}
             </span>
           </p>
           {lastEntry && (
