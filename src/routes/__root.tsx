@@ -94,6 +94,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Ponto Certo — Registro de Ponto" },
+      { name: "description", content: "Ponto Certo is a web application for employees to clock in and out, hosted on GitHub." },
+      { property: "og:description", content: "Ponto Certo is a web application for employees to clock in and out, hosted on GitHub." },
+      { name: "twitter:description", content: "Ponto Certo is a web application for employees to clock in and out, hosted on GitHub." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/OURXxUZiV9UXPQu7R6yrJBjzJri2/social-images/social-1780798618107-1000022148.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/OURXxUZiV9UXPQu7R6yrJBjzJri2/social-images/social-1780798618107-1000022148.webp" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
