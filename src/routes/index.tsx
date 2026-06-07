@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Clock, MapPin, Camera, BarChart3, ArrowRight } from "lucide-react";
 import { useAuth } from "@/lib/use-auth";
 import { Button } from "@/components/ui/button";
+import { PjLogo } from "@/components/pj-logo";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -43,10 +44,7 @@ function Index() {
     <div className="min-h-screen">
       <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
         <span className="flex items-center gap-2 font-display text-lg font-bold">
-          <span className="grid h-9 w-9 place-items-center rounded-xl text-primary-foreground"
-            style={{ background: "var(--gradient-primary)" }}>
-            <Clock className="h-5 w-5" />
-          </span>
+          <PjLogo className="h-9 w-9 rounded-xl" />
           Ponto Certo
         </span>
         <Button asChild variant="outline">
