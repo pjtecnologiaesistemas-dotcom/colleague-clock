@@ -1,7 +1,7 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { Download, LogIn, LogOut, MapPin, ImageIcon, ShieldAlert, Users, Clock } from "lucide-react";
+import { Download, LogIn, LogOut, MapPin, ImageIcon, ShieldAlert, Users } from "lucide-react";
 import { AppShell } from "@/components/app-shell";
 import { useAuth, useIsAdmin } from "@/lib/use-auth";
 import { supabase } from "@/integrations/supabase/client";
